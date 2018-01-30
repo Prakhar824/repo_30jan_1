@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct Node
+struct Node //this is my first comment
 {
    int data;
    struct Node *next;
 }*top = NULL;
 
-void push(int);
+void push(int); //this is push function
 void pop();
 void display();
 
